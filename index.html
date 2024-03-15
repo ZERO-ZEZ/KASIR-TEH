@@ -95,9 +95,6 @@
         <button onclick="copyReceipt()">Salin Struk</button>
         <button class="share-button" onclick="shareReceipt()">Bagikan Struk</button>
     </div>
-    <footer>
-        <p>Hak Cipta &copy; Andre Saputra 2024</p>
-    </footer>
 
     <script>
         // JavaScript code here...
@@ -105,10 +102,11 @@
         let total = 0;
 
         // Add default products to the cart
-        addToCart('Teh Sedang', 3000);
-        addToCart('Teh Jumbo', 5000);
-        addToCart('Tekwan Biasa', 8000);
-        addToCart('Tekwan Model', 10000);
+        addToCart('TEH SEDANG', 3000);
+        addToCart('TEH JUMBO', 5000);
+        addToCart('ES RANDOM', 5000);
+        addToCart('TEKWAN BIASA', 8000);
+        addToCart('TEKWAN MODEL', 10000);
 
         function addToCart(product, price) {
             const quantity = 0; // Start quantity from 0
